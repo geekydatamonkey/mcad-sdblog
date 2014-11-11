@@ -1,0 +1,44 @@
+// _header-aside
+
+.header-aside {
+  //border: 1px solid green;
+  position: relative;
+
+  .logo-mcad {
+    width: 6em;
+    opacity: $inactive-opacity;
+    position: absolute;
+    top: 0.25em;
+    right: 0;
+  }
+  .call-to-action-list {
+    @extend .clearfix;
+    list-style-type: none;
+    position: absolute;
+    left: 11em;
+    padding: 0;
+    margin: 0;
+    font-size: 0.75em;
+    color: $black;
+    font-weight: 500;
+    line-height: 1;
+    li {
+      width: 6em;
+      float: left;
+      border-left: 0.125em solid $black;
+      padding: 0.25em 0.5em;
+      margin-right: 2em;
+      opacity: $inactive-opacity;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .broch {
+      background: url('http://mcadsustainabledesign.james.mn/wp-content/themes/theme_sdonew/img/sdo_broch.png') no-repeat right;
+      width: 8em;
+    }
+    a {
+      color: $black;
+    }
+  }
+}

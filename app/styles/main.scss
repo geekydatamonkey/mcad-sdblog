@@ -1,4 +1,12 @@
 // main.scss
 
+// helpers and utilities
+//@import "../bower_components/susy/sass/susy";
+
 @import "variables";
 @import "globals";
+
+// modules
+@import "page-header";
+@import "main-nav";
+@import "header-aside";

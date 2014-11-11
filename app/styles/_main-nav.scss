@@ -1,0 +1,34 @@
+// _main-nav.scss
+
+.main-nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  h2 {
+    @extend .visuallyhidden;
+  }
+  ul {
+    @extend .clearfix;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+      display: inline-block;
+      padding: 0.25em 0.5em;
+      border-bottom: 0.35em solid transparent;
+      margin: 0 0.5em;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 0.9em;
+      &:hover {
+        border-bottom-color: $black;
+      }
+  }
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+}
