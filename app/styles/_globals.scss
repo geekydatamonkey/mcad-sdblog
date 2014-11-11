@@ -17,7 +17,8 @@ img {
   max-width: 100%;
 }
 
-.clearfix {
+.clearfix,
+.container {
   content: "";
   display: table;
   clear: both;

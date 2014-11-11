@@ -10,6 +10,9 @@
     font-size: 1.8rem;
     weight: bolder;
     line-height: 1;
+    .logo-sdo {
+      color: $color-header-sdo;
+    }
   }
   .header-nav {
     width: 55%;
