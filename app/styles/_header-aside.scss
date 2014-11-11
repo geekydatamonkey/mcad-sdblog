@@ -10,6 +10,9 @@
     position: absolute;
     top: 0.25em;
     right: 0;
+    &:hover {
+      opacity: 1;
+    }
   }
   .call-to-action-list {
     @extend .clearfix;
