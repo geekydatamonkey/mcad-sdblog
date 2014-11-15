@@ -9,6 +9,7 @@
 
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -19,6 +20,8 @@
   <!-- build:js scripts/vendor/modernizr.js -->
   <script src="bower_components/modernizr/modernizr.js"></script>
   <!-- endbuild -->
+  <script src="//use.typekit.net/vwg0sai.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
     <!--[if lt IE 10]>
@@ -26,18 +29,18 @@
     <![endif]-->
 
   <header class="page-header">
-    <h1 class="col-1-3">
-      <span class="head-mcad">Minneapolis College of Art and Design</span>
-      <span class="head-sd">Sustainable Design Online Program</span>
+    <h1 class="header-logo">
+      <span class="logo-mcad">Minneapolis College of Art and Design</span>
+      <span class="logo-sdo">Sustainable Design Online Program</span>
     </h1>
 
-    <div class="col-2-3">
-      <aside>
+    <div class="header-nav">
+      <aside class="header-aside">
         <ul class="call-to-action-list">
-          <li><a href="#">Request a brochure</a></li>
+          <li class="broch"><a href="#">Request a brochure</a></li>
           <li><a href="#"><span class="line">mcad.edu/</span> sustainable</a></li>
         </ul>
-        <img src="images/mcad-logo-600px.png" alt="MCAD Logo">
+        <a href="http://mcad.edu"><img class="logo-mcad" src="images/mcad-logo-600px.png" alt="MCAD Logo"></a>
       </aside>
 
       <nav class="main-nav">
@@ -54,106 +57,87 @@
   </header><!-- .page-header -->
 
   <main>
-
-    <a href="#">
+    <div class="container">
       <article class="post-thumb">
-        <p class="category">Natural Leadership</p>
         <p class="post-date">Jul 9, 2014</p>
+        <p class="category">Natural Leadership</p>
         <h1>Sustainability Bucket List</h1>
         <img src="images/1.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Eco-careers</p>
         <p class="post-date">Feb 26, 2014</p>
+        <p class="category">Eco-careers</p>
         <h1>Visual Communications for Sustainability</h1>
         <img src="images/2.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Biomimicry</p>
         <p class="post-date">Feb 20,2014</p>
+        <p class="category">Biomimicry</p>
         <h1>Design Rules for Sustainability</h1>
         <img src="images/3.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Green Graphic &amp; Packaging Design</p>
         <p class="post-date">Feb 10, 2014</p>
+        <p class="category">Green Graphic &amp; Packaging Design</p>
         <h1>Background Stories</h1>
         <img src="images/4.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Innovation &amp; Entrepreneurship</p>
         <p class="post-date">Jan 30, 2014</p>
+        <p class="category">Innovation &amp; Entrepreneurship</p>
         <h1>Green Redesigns by Virtual Teams at MCAD</h1>
         <img src="images/5.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">About the MA Program</p>
         <p class="post-date">Jan 15, 2014</p>
+        <p class="category">About the MA Program</p>
         <h1>Education Global Change Agents</h1>
         <img src="images/6.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">About the MA Program</p>
         <p class="post-date">Dec 19, 2013</p>
+        <p class="category">About the MA Program</p>
         <h1>Happy Holidays!</h1>
         <img src="images/7.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Innovation &amp; Entrepreneurship</p>
         <p class="post-date">Nov 13, 2013</p>
+        <p class="category">Innovation &amp; Entrepreneurship</p>
         <h1>Designers Emerge as Entreprenuers</h1>
         <img src="images/8.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Natural Leadership</p>
         <p class="post-date">Oct 20, 2013</p>
+        <p class="category">Natural Leadership</p>
+
         <h1>The Time to Reap</h1>
         <img src="images/9.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#">
       <article class="post-thumb">
-        <p class="category">Natural Leadership</p>
         <p class="post-date">Sep 17, 2013</p>
+        <p class="category">Natural Leadership</p>
         <h1>Becoming a Creative Leader</h1>
         <img src="images/10.jpg" alt="placeholder">
       </article>
-    </a>
 
-    <a href="#"><article class="post-thumb">
-      <p class="category">Green Biz</p>
+    <article class="post-thumb">
       <p class="post-date">Aug 27, 2013</p>
+      <p class="category">Green Biz</p>
       <h1>Sustainability in Design and Marketing Boot Camp</h1>
       <img src="http://lorempixel.com/800/600/people/1" alt="placeholder">
-    </article></a>
+    </article>
+  </div><!-- .container -->
 
-
-    <nav>
+    <nav class="post-nav">
       <a href="#">&larr; Older Posts</a> |
     </nav>
 
@@ -169,6 +153,7 @@
     </ul>
   </footer>
 
+  <a href="modules.html">CSS Modules</a>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
