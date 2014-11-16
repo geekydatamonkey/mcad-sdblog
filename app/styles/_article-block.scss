@@ -1,7 +1,8 @@
 .article-block {
   width: 23em;
+  height: 20em;
   padding: 1em;
-  background-image: linear-gradient(magenta, transparent);
+  background-image: linear-gradient(#E12892, transparent);
   color: $white;
   .post-date {
     float: right;
@@ -15,5 +16,9 @@
     margin: 0 0 0.5em 0;
     line-height: 1;
     font-size: 1.75em;
+  }
+  img {
+    max-width: none;
+    z-index: -10;
   }
 }
