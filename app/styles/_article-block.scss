@@ -1,0 +1,19 @@
+.article-block {
+  width: 23em;
+  padding: 1em;
+  background-image: linear-gradient(magenta, transparent);
+  color: $white;
+  .post-date {
+    float: right;
+  }
+  .category,
+  .post-date{
+    margin: 0;
+    font-size: 0.9em;
+  }
+  h1 {
+    margin: 0 0 0.5em 0;
+    line-height: 1;
+    font-size: 1.75em;
+  }
+}
