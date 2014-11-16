@@ -23,6 +23,9 @@ body {
 img {
   max-width: 100%;
 }
+.container {
+  @include clearfix;
+}
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden {

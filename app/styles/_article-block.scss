@@ -1,8 +1,11 @@
 .article-block {
-  width: 23em;
+  float: left;
+  min-width: 10em;
+  width: 32%;
   height: 20em;
+  margin: 0.5em;
   padding: 1em;
-  background-image: linear-gradient(#E12892, transparent);
+  background: linear-gradient(#E12892, transparent);
   color: $white;
   .post-date {
     float: right;
@@ -20,5 +23,14 @@
   img {
     max-width: none;
     z-index: -10;
+  }
+  &.block-small {
+    width: 25%;
+  }
+  &.block-medium {
+    width: 32%;
+  }
+  &.block-large {
+    width: 48%;
   }
 }
