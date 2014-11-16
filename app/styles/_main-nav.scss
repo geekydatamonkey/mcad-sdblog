@@ -20,6 +20,9 @@
     &:hover {
       border-bottom: 0.4em solid $black;
     }
+    &:last-child {
+      margin-right: 0;
+    }
   }
   a {
     color: $black;
