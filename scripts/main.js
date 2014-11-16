@@ -1,0 +1,1 @@
+!function(i,c,e){"use strict";i(e).ready(function(){i(".article-block").imagefill()})}(jQuery,window,document);
