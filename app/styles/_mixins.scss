@@ -16,3 +16,10 @@
   display: table;
   clear: both;
 }
+
+@mixin gradient-to-solid-on-hover($color: $blue){
+  background: linear-gradient($color, transparent);
+  &:hover {
+    background: $color;
+  }
+}

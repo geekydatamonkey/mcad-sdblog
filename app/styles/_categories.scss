@@ -1,18 +1,18 @@
 .category-blue {
-  background: linear-gradient($blue, transparent);
+  @include gradient-to-solid-on-hover($blue);
 }
 .category-pink {
-  background: linear-gradient($pink, transparent);
+  @include gradient-to-solid-on-hover($pink);
 }
 .category-red {
-  background: linear-gradient($red, transparent);
+  @include gradient-to-solid-on-hover($red);
 }
 .category-yellow {
-  background: linear-gradient($yellow, transparent);
+  @include gradient-to-solid-on-hover($yellow);
 }
 .category-green {
-  background: linear-gradient($green, transparent);
+  @include gradient-to-solid-on-hover($green);
 }
 .category-purple {
-  background: linear-gradient($purple, transparent);
+  @include gradient-to-solid-on-hover($purple);
 }
