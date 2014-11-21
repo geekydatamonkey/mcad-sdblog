@@ -2,7 +2,6 @@
 // generated on 2014-11-04 using generator-gulp-webapp 0.1.0
 
 var gulp = require('gulp');
-var deploy = require('gulp-gh-pages');
 
 // load plugins
 var $ = require('gulp-load-plugins')();
@@ -131,9 +130,4 @@ gulp.task('watch', ['connect', 'serve'], function () {
     gulp.watch('app/scripts/**/*.js', ['scripts']);
     gulp.watch('app/images/**/*', ['images']);
     gulp.watch('bower.json', ['wiredep']);
-});
-
-gulp.task('deploy', function () {
-    return gulp.src('./dist/**/*')
-        .pipe(deploy());
 });
