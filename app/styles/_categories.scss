@@ -1,0 +1,18 @@
+.category-blue {
+  @include gradient-to-solid-on-hover($blue);
+}
+.category-pink {
+  @include gradient-to-solid-on-hover($pink);
+}
+.category-red {
+  @include gradient-to-solid-on-hover($red);
+}
+.category-yellow {
+  @include gradient-to-solid-on-hover($yellow);
+}
+.category-green {
+  @include gradient-to-solid-on-hover($green);
+}
+.category-purple {
+  @include gradient-to-solid-on-hover($purple);
+}
